@@ -3,4 +3,4 @@
 
 ### Support or Contact
 
-Having trouble with GoHide? Check out our gohide.net(https://gohide.net) or [contact support](gohide@gmail.com) and we’ll help you sort it out.
+Having trouble with GoHide? Check out our website:gohide.net(https://gohide.net) and we’ll help you sort it out.
