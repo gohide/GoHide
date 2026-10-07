@@ -58,7 +58,7 @@ The direct-download installer is not code-signed yet — if Windows shows a Smar
 | Dynamic auto-hide rules (by title/class) | — | ✅ |
 | PIN lock for settings | — | ✅ |
 | Remembered across restarts | your apps, global hotkeys & language | every setting |
-| Price | free forever | US$19.99 one-time |
+| Price | free forever | US$19.99 one-time (¥49 in mainland China) |
 | Subscription or renewal fees | never | never |
 
 No account, no trial nags — the free tier is free forever. Details: [gohide.net/en/pricing](https://gohide.net/en/pricing?utm_source=readme)
@@ -71,7 +71,8 @@ Honest side-by-side pages: [Boss Key (MindGems)](https://gohide.net/en/alternati
 
 - You want **every** window, desktop icon and the wallpaper gone at once → a whole-desktop boss key such as Boss Key (MindGems).
 - You only want a tidier notification area long-term → Windows' own **Settings → Personalization → Taskbar → Other system tray icons** is enough.
-- You need apps hidden from **screen-recording or remote-monitoring software** → gohide can't do that; it hides apps on your local screen only.
+- You want an app **visible to you but invisible to a recording or stream** (e.g. a script or chat you read while live) → use a capture-filter tool such as OBS's enhanced display capture or Cloakly. Apps gohide hides are off the screen entirely, so they never reach a recording, but you can't use them while they're hidden.
+- You need to hide from **monitoring software** that an app is running → gohide can't do that.
 - You're not on Windows → gohide is Windows-only.
 
 ## Screenshots & press kit
