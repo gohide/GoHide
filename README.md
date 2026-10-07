@@ -58,7 +58,7 @@ The direct-download installer is not code-signed yet — if Windows shows a Smar
 | Dynamic auto-hide rules (by title/class) | — | ✅ |
 | PIN lock for settings | — | ✅ |
 | Remembered across restarts | your apps, global hotkeys & language | every setting |
-| Price | free forever | US$19.99 one-time (¥49 in mainland China) |
+| Price | free forever | US$19.99 one-time |
 | Subscription or renewal fees | never | never |
 
 No account, no trial nags — the free tier is free forever. Details: [gohide.net/en/pricing](https://gohide.net/en/pricing?utm_source=readme)
