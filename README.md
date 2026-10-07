@@ -4,7 +4,7 @@
 
 **Hide app windows, taskbar buttons and system-tray icons with one hotkey — then restore them exactly as they were.**
 
-A boss key / focus & privacy tool for Windows 10 & 11 (x64 / ARM64).
+A boss key / focus & privacy tool for Windows 10 & 11 (x64 / ARM64). Free for up to 3 apps; Pro is a one-time US$19.99 (¥49 in mainland China), no subscription.
 
 ### 🌐 [gohide.net](https://gohide.net/?utm_source=readme) · ⬇️ [Download](https://gohide.net/en/download?utm_source=readme) · 🛍️ [Microsoft Store](https://apps.microsoft.com/detail/9P8TJW0XK995) · 📖 [Docs](https://gohide.net/en/docs?utm_source=readme) · 💲 [Pricing](https://gohide.net/en/pricing?utm_source=readme)
 
@@ -31,8 +31,10 @@ Most "window hiders" leave a tray icon or a taskbar button behind. gohide remove
 - **Hot corners & mouse triggers** (Pro) — hide all by flicking the mouse into a corner or pressing a side button.
 - **Dynamic rules** (Pro) — auto-hide apps by window title or class instead of picking each one.
 - **PIN lock** (Pro) — nobody at your desk can change your rules or reveal hidden apps.
+- **Auto-hide when you step away** (Pro) — everything hides after 1–15 minutes idle.
+- **Hide chosen apps at Windows startup** (Pro) — tray icons included.
 - **Start with Windows, elevated** — via a Task Scheduler task, no UAC prompt on every boot.
-- **English & 简体中文** — follows your Windows language automatically.
+- **Six languages** — English, 简体中文, Deutsch, Français, 日本語, 한국어; follows your Windows language or keeps the one you pick.
 - **Light and private** — no account, no telemetry, works fully offline.
 
 ## Download
@@ -42,20 +44,21 @@ Most "window hiders" leave a tray icon or a taskbar button behind. gohide remove
 - **winget:** `winget install gohide.gohide`
 - **This repo:** [Releases](https://github.com/gohide/GoHide/releases/latest) — the same installer the website serves.
 
-The direct-download installer is not code-signed yet — if Windows shows a SmartScreen or publisher warning, see [why that happens and how to proceed safely](https://gohide.net/en/download/windows-warnings?utm_source=readme). The Store build has no such warning.
+The direct-download installer is not code-signed yet — if Windows shows a SmartScreen or publisher warning, see [why that happens and how to proceed safely](https://gohide.net/en/download/windows-warnings?utm_source=readme). The Store build is signed by Microsoft and has no such warning.
 
 ## Free vs Pro
 
 | | Free | Pro (one-time purchase) |
 |---|---|---|
-| Hide windows, taskbar buttons & tray icons | ✅ up to 5 apps | ✅ unlimited |
+| Hide windows, taskbar buttons & tray icons | ✅ up to 3 apps | ✅ unlimited |
 | Global, per-app & lock-screen hotkeys, restore-all, mute on hide | ✅ | ✅ |
 | Suspend hidden processes (save CPU/GPU) | — | ✅ |
 | Privacy cover screen | — | ✅ |
 | Hot corners & mouse triggers | — | ✅ |
 | Dynamic auto-hide rules (by title/class) | — | ✅ |
 | PIN lock for settings | — | ✅ |
-| Settings remembered across restarts | — | ✅ |
+| Remembered across restarts | your apps, global hotkeys & language | every setting |
+| Price | free forever | US$19.99 one-time (¥49 in mainland China) |
 | Subscription or renewal fees | never | never |
 
 No account, no trial nags — the free tier is free forever. Details: [gohide.net/en/pricing](https://gohide.net/en/pricing?utm_source=readme)
@@ -63,6 +66,13 @@ No account, no trial nags — the free tier is free forever. Details: [gohide.ne
 ## Compared with other boss keys
 
 Honest side-by-side pages: [Boss Key (MindGems)](https://gohide.net/en/alternatives/boss-key?utm_source=readme) · [Magic Boss Key](https://gohide.net/en/alternatives/magic-boss-key?utm_source=readme) · [HiddeX](https://gohide.net/en/alternatives/hiddex?utm_source=readme) · [Taskbar Hide](https://gohide.net/en/alternatives/taskbar-hide?utm_source=readme)
+
+## When another tool fits better
+
+- You want **every** window, desktop icon and the wallpaper gone at once → a whole-desktop boss key such as Boss Key (MindGems).
+- You only want a tidier notification area long-term → Windows' own **Settings → Personalization → Taskbar → Other system tray icons** is enough.
+- You need apps hidden from **screen-recording or remote-monitoring software** → gohide can't do that; it hides apps on your local screen only.
+- You're not on Windows → gohide is Windows-only.
 
 ## Screenshots & press kit
 
